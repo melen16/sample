@@ -1,0 +1,19 @@
+
+
+img {
+  width: 320px;
+	height: 240px;
+	margin: 10px;
+  border-radius: 2%;
+}
+
+
+div.figures {
+	overflow: hidden;
+}
+
+div.figures figure {
+	display: inline-block;
+	border: 3px solid green;
+  border-radius: 2%;
+}

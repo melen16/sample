@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <title>Lab 2</title>
+  <link rel="stylesheet" type="text/css" href="../../style/style.css">
+  <script type="text/javascript" src="../../script/script.js"></script>
+  <!--Jquery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!--Font awesome CDN -->
+  <script src="https://use.fontawesome.com/cf60beb914.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="jumbotron">
+      <h3> Lab work 2</h3>
+    </div>
+    <div class="panel panel-default"> 
+      <div class="panel panel-heading">
+        <h4>Responsive web design</h4>
+      </div>
+      <div class="panel panel-body">
+        <h4>1. What is the purpose of the RWD? Why it is used? How things were done before RWD? What is the difference?</h4>
+        <p>The purpose of RWD is to develop website which suite for all device wheather it is phone,tabs or computers.It used for user to see clearly the website in all devices.Before the website developed for particular divice .But Now a days websites developed for all products.People they dont have to search single device to see the website .but now everybody can access any website it developed with RWD.
+          Responsive web design is important and gives technologies to be	Flexible foundation and	Become responsive</p>
+
+        <h4>2. How CSS media queries can help you build responsive websites?</h4>
+        <p>In the past, designers were using resolution aware layouts, which rely on java script driven solution like Cameron Adams excellent script. But the media query specification provides a host of media features that extends far beyond screen resolution, and using much wider scope and we can test multiple property values in a single query by chaining them using and keyword.</p>
+        <p>Media queries are like conditional statements, it works so that it can shape the layout of our website beyond the initial resolution. By doing so it is not affecting a specific version of browser. </p>
+        <p>With media queries, we can apply resolution specific spot fixes, adapting our design to better respond to changes in the display.</p>
+
+        <h4>3. Why to use em (font) based sizing for example margins?</h4>
+
+        <p>Eventhough em is nt absolute measurement,it makes to fit with all screan devices and makes it responsive to all screan width</p>
+      </div>
+    </div> <!--/. RWD  -->
+    <div class="panel panel-default">
+      <div class="panel panel-heading">
+        <h4>RWD examples</h4>
+      </div>
+      <div class="panel panel-body">
+        <div class="row">
+          <div class="col-xs-6">
+            <p>Bostonglobe website image on desktop</p>
+            <img class="image-responsive col-xs-12" src="./image/boston-desktop.png" alt="boston-desktop">
+          </div>
+          <div class="col-xs-6">
+            <p>Bostonglobe website image on mobile</p>
+            <img class="image-responsive col-xs-8" src="./image/boston-mobile.PNG" alt="boston-mobile">
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-xs-6">
+            <p> desktop</p>
+            <img class="image.responsive col-xs-12" src="./image/boston-desktop.png" alt="mac-jisc-image">
+          </div>
+          <div class="col-xs-6">
+            <p> mobile</p>
+            <img class="image.responsive col-xs-8" src="./image/boston-mobile.PNG" alt="mobile-jisc-image">
+          </div>
+        </div>
+      </div>
+    </div><!--/ RWD example  -->
+    <div class="panel panel-default">
+      <div class="panel panel-heading">
+        <h4>RWD in practice</h4>
+      </div>
+      <div class="panel panel-body">
+        <p><strong>A simple responsive web page using CSS-reset</strong> </p>
+        <p>&bull; CSS reset makes the browser styles to reset null and making the website similar in diffrent browser and devices. </p>
+        <h4>How to prevent user zooming the site on mobile?</h4>
+        <p>&bull; By using the following code: &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /&gt; </p>
+        <a class="btn btn-success" href="rwd.html" target="_blank">Simple responsive web page <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> </a>
+      </div>
+    </div> <!--/RWD practice  -->
+    <div class="panel panel-default">
+      <div class="panel panel-heading">
+        <h4>Adding stuff</h4>
+      </div>
+      <div class="panel panel-body">
+        <h4>Adding Menu</h4>
+        <a class="btn btn-success" href="rwd-menu.html" target="_blank">Simple responsive web page with menu <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> </a>
+
+        <h4>Why is figure used in addition to standard &lt;img&gt; tag? </h4>
+        <p>&bull; Figure is a way of illustrate  diagram, photos, codes that might be used with a caption.</p>
+      </div>
+    </div> <!-- /Adding stuff  -->
+    <div class="panel panel-default">
+      <div class="panel panel-heading">
+        <h4>Responsive person list</h4>
+      </div>
+      <div class="panel panel-body">
+        <a class="btn btn-success" href="../lab1/PersonList.html" target="_blank">Person list  <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span></a>
+      </div>
+    </div> <!--/Responsive person list  -->
+  </div>
+</body>
+</html>
